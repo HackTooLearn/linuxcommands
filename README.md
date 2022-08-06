@@ -3,6 +3,7 @@
 
 * pwd --- show the current or Present Working Directory
 * sudo --- execute a command as SuperUser
+* sudo su --- to become or change to SuperUser [root]
 * clear --- clears the terminal window
 * ls --- shows a list of files in that directory
 * ls -al --- displays or lists all the files present in the directory
@@ -31,9 +32,10 @@
 * head --- shows first 10 lines for the specified file
 * tail --- shows last 10 lines for the specified file
 * exit --- exit out from terminal
-* ifconfig | ipconfig | ip -a --- display routing, devices, ip address, mac address devices, policy
+* ifconfig | ipconfig | ip -a --- used to configure / display network interfaces
 * history --- shows the command history
 * dig --- domain information groper, DNS lookup utility
+* ps --- shows active processes with process ID's [PID]
 * hostname --- display / set the hostname of the system
 * wc --- shows the total bytes, words & bytes for the specified file
 * locate --- searches or finds files by their name
@@ -50,6 +52,7 @@
 * md5sum --- used to check MD5 checksum for a file
 * nc --- netcat utility
 * netstat --- show or display network information
+* netstat -tupln --- displays all active listening ports
 * nslookup --- used to perform DNS queries
 * nmap --- powerful network scanning & secuirty auditing tool
 * scp --- copy files between hosts on a network securely using SSH
